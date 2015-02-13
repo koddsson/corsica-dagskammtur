@@ -6,7 +6,7 @@
  */
 
 var _ = require('lodash');
-var dagskammtur = require('../node-dagskammtur');
+var dagskammtur = require('node-dagskammtur');
 var Promise = require('es6-promise').Promise;
 
 var template = _.template('<h2><%= day %></h2><ul><li><%= items %></li></ul>');
