@@ -1,0 +1,23 @@
+{
+  "name": "corsica-dagskammtur",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/koddsson/corsica-dagskammtur.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koddsson/corsica-dagskammtur/issues"
+  },
+  "homepage": "https://github.com/koddsson/corsica-dagskammtur",
+  "dependencies": {
+    "es6-promise": "^2.0.1",
+    "node-dagskammtur": "^1.0.3"
+  }
+}
