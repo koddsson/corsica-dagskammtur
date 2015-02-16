@@ -13,8 +13,6 @@ var Promise = require('es6-promise').Promise;
 
 var dagskammtur = require('node-dagskammtur');
 
-console.log(path.join(__dirname, 'template.html'));
-
 var base_template = fs.readFileSync(path.join(__dirname, 'template.html')).toString();
 var item_template = '<h2>{{ day }}</h2><ul><li>{{ items }}</li></ul>';
 
